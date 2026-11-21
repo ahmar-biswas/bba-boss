@@ -54,3 +54,42 @@ npx.cmd vercel@latest deploy --prod
 ```
 
 There is no build step: Vercel serves `public/` and runs the functions in `api/`.
+
+## How it works
+
+### From slides to rooms
+1. **Upload** a lecture PDF.
+2. **Answer 5 setup questions**:
+   - Focus: definitions, lists/frameworks, numbers, cases, or balanced
+   - Question types: MCQ, True/False, Fill in the blanks, Short, or all
+   - Exam style: memorise, apply, or mix
+   - AI explainers: on or off
+   - Examples: 🇧🇩 Bangladeshi, 🌍 global, both, or none
+3. **Lessons are built** in the same layout as the sample chapters. Each lesson board has:
+   - Lines taken straight from the slides (always first)
+   - Key terms and worked maths (when the slides have numbers)
+   - A plain-language AI explainer (optional)
+   - 🇧🇩/🌍 examples (study aids only, never used in questions)
+4. **The boards are placed around campus**: Main Building, Eucalyptus Tree, Canteen, Classroom, Library and Bunker.
+5. **Recall quizzes** run after every board. They're timed and use only the question types you picked.
+
+### The exam
+- A separate, harder exam bank that never repeats a recall question
+- About 50% of questions come from your focus areas
+- More scenario questions if you chose "apply"
+- Takes place in **Exam Hall 01**, with twist cards, rumours, a boss fight and a final grade
+- Pays out **BBA Bucks (B$)**
+
+### Characters
+Every character has one power you can use once per exam.
+
+| Character | Top stat | Power | Unlock |
+|---|---|---|---|
+| YMN | Funny 95 | SIX SEVEN 😂 | Free |
+| IBRU | Rich 95 | LT MONEY 💰 | Free |
+| RYD | Handsome/Aura 95 | RIZZ 😎 | 2,500 B$ |
+| PRJT | Brain 97 | NERD ATTACK 🤓 | 4,000 B$ |
+| RNGN | Aura 95 | GUITAR RIFF 🎸 | 6,000 B$ |
+| ARIK | Handsome 92 | BETRAYAL 🗡️ | 9,000 B$ |
+
+You can tap a locked character to see their stats and power, but you have to buy them before you can play as them.
