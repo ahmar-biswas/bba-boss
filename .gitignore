@@ -1,0 +1,8 @@
+.vercel/
+.vercel
+.env*
+node_modules/
+*.backup.html
+index.backup.html
+patch_*.cjs
+*.log
